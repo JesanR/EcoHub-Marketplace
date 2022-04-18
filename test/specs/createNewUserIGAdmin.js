@@ -29,10 +29,10 @@ describe('My Login application', () => {
 
 
         await CreateUser.open()
-        await CreateUser.enterUser("Jesan", "Rahman")
+        await CreateUser.enterUser("Jesan", "Rahman", "123456789", "+880", "1687711728", "1/1/1985", "auto.eco214203@yopmail.com", "AUTO PAA")
     });
 });
 
-
-//npx wdio run wdio.conf.js
+/* run this command below:
+npx wdio run wdio.conf.js */
 

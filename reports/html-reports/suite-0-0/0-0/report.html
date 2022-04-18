@@ -32,15 +32,15 @@
 
         <tr>
             <td>Start</td>
-            <td>2022-04-17T13:43:57.344Z</td>
+            <td>2022-04-18T10:48:10.574Z</td>
         </tr>
         <tr>
             <td>End</td>
-            <td>2022-04-17T13:44:29Z</td>
+            <td>2022-04-18T10:49:10Z</td>
         </tr>
         <tr>
             <td>Duration</td>
-            <td>00:00:32.612</td>
+            <td>00:01:00.190</td>
         </tr>
         <tr>
             <td>Breakdown</td>
@@ -52,9 +52,9 @@
                         <td class='test-fail'>Test Failures</td>
                     </tr>
                     <tr>
+                        <td>0</td>
+                        <td>0</td>
                         <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                 </table>
             </td>
@@ -100,7 +100,7 @@
 <table class="table table-bordered table-suite">
     <tr class="suite-header">
         <td colspan="2"
-            class="suite-pass">
+            class="suite-fail">
             <h3>
                 <span style="margin: 2px; padding: 1px" class="glyphicon glyphicon-chevron-up">&nbsp;</span>My Login application
             </h3>
@@ -118,15 +118,15 @@
     
         <tr>
             <td>Suite Start</td>
-            <td>Sun Apr 17 2022 19:43:57 GMT+0600 (Bangladesh Standard Time)</td>
+            <td>Mon Apr 18 2022 16:48:10 GMT+0600 (Bangladesh Standard Time)</td>
         </tr>
         <tr>
             <td>Suite End</td>
-            <td>Sun Apr 17 2022 19:44:29 GMT+0600 (Bangladesh Standard Time)</td>
+            <td>Mon Apr 18 2022 16:49:10 GMT+0600 (Bangladesh Standard Time)</td>
         </tr>
         <tr>
             <td>Suite Duration</td>
-            <td>00:00:32.505</td>
+            <td>00:01:00.041</td>
         </tr>
 
         
@@ -143,12 +143,39 @@
             <td>
                 <table class="table table-test">
                     <tr class="test-header">
-                        <td colspan="2" class="test-pass">
+                        <td colspan="2" class="test-fail">
                             <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
-                            <span class="success">&#10004;</span>
+                            <span class="error">&#10006;</span>
                             <span class="test-title">should login with valid credentials</span>
                         </td>
                     </tr>
+                    
+                        
+                            <tr class="test-row expandable-control">
+                                <td colspan="2">
+                                    <p class="pre assert ">
+                                <span style="margin: 2px; padding: 1px"
+                                      class='glyphicon glyphicon-chevron-down'>&nbsp;</span>
+                                        Assertion: Timeout of 60000ms exceeded. The execution in the test &quot;My Login application should login with valid credentials&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Automation\WdIO_EcoHub_Marketplace\test\specs\createNewUserIGAdmin.js)
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                                <tr class="test-row">
+                                    <td colspan="2">
+                                        <pre class='pre stack panel'>Error: Timeout of 60000ms exceeded. The execution in the test &quot;My Login application should login with valid credentials&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Automation\WdIO_EcoHub_Marketplace\test\specs\createNewUserIGAdmin.js)
+    at createTimeoutError (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\mocha\lib\errors.js:498:15)
+    at Test.Runnable._timeoutError (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\mocha\lib\runnable.js:431:10)
+    at Timeout.&lt;anonymous&gt; (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\mocha\lib\runnable.js:246:24)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)</pre>
+                                    </td>
+                                </tr>
+                            
+                        
+                        
+                        
+                        
                     
                 </table>
             </td>
