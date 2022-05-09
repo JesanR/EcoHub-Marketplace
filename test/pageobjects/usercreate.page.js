@@ -149,7 +149,7 @@ class UserPage extends Page {
         await browser.pause(6000)
         
         await expect(browser).toHaveUrlContaining("users")
-        await (await this.userStatusPending).waitForDisplayed()
+        await (await this.userStatusPending).waitForDisplayed({timeout: 60000})
         await browser.pause(4000)
 
     }

@@ -21,8 +21,18 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.js',
+        './test/specs/createNewuserIGAdmin.js'
     ],
+    // define specific suites
+    suites: {
+        userCreation: [
+            './test/specs/createNewUserIGAdmin.js'
+        ],
+        otherFeature: [
+            // ...
+        ]
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
