@@ -51,6 +51,7 @@ class LoginPage extends Page {
         */
     
     async login (signInName, password) {
+        browser.maximizeWindow()
         await this.inputUsername.setValue(signInName)
         await this.inputPassword.setValue(password)
         await this.btnSubmit.click()
