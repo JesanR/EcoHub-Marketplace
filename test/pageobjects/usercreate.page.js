@@ -111,8 +111,6 @@ class UserPage extends Page {
 
         /* let langDD = $('mat-select[formcontrolname="primaryLanguage"]')
         await langDD.click() */
-
-        /* asdas */
         await (await this.languageDropDown).click()
         console.log("language Drop Down click success!")
         await browser.pause(1000)
