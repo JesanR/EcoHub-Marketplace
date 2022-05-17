@@ -137,7 +137,6 @@ class UserPage extends Page {
         await this.roleInput.setValue("Ig")
         await (await this.roleInput).click()
         await browser.pause(2000)
-        //await this.role01.moveTo()
         await this.role01.click()
         await browser.pause(1000)
         await (await this.assignButton).click()

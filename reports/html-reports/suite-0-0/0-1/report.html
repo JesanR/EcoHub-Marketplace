@@ -32,15 +32,15 @@
 
         <tr>
             <td>Start</td>
-            <td>2022-05-16T13:27:55.237Z</td>
+            <td>2022-05-16T11:37:14.240Z</td>
         </tr>
         <tr>
             <td>End</td>
-            <td>2022-05-16T13:28:30Z</td>
+            <td>2022-05-16T11:37:46Z</td>
         </tr>
         <tr>
             <td>Duration</td>
-            <td>00:00:35.707</td>
+            <td>00:00:32.706</td>
         </tr>
         <tr>
             <td>Breakdown</td>
@@ -52,9 +52,9 @@
                         <td class='test-fail'>Test Failures</td>
                     </tr>
                     <tr>
+                        <td>0</td>
+                        <td>0</td>
                         <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
                     </tr>
                 </table>
             </td>
@@ -80,14 +80,14 @@
             <tr>
                 <td colspan="2">
                 
-                    <h3>0-0</h3>
+                    <h3>0-1</h3>
                 
                 <table class="table table-bordered">
                     
                         
                             <tr>
                                 <td>Spec File</td>
-                                <td>F:\Automation\WdIO_EcoHub_Marketplace\test\specs\createInsurerApplication.js</td>
+                                <td>F:\Automation\WdIO_EcoHub_Marketplace\test\specs\createNewUserIGAdmin.js</td>
                             </tr>
                         
                     
@@ -100,9 +100,9 @@
 <table class="table table-bordered table-suite">
     <tr class="suite-header">
         <td colspan="2"
-            class="suite-pass">
+            class="suite-fail">
             <h3>
-                <span style="margin: 2px; padding: 1px" class="glyphicon glyphicon-chevron-up">&nbsp;</span>EcoHub-Portal
+                <span style="margin: 2px; padding: 1px" class="glyphicon glyphicon-chevron-up">&nbsp;</span>EcoHub-portal
             </h3>
             
         </td>
@@ -110,7 +110,7 @@
     
         <tr>
             <td>Spec File</td>
-            <td>\test\specs\createInsurerApplication.js</td>
+            <td>\test\specs\createNewUserIGAdmin.js</td>
         </tr>
     
 
@@ -118,15 +118,15 @@
     
         <tr>
             <td>Suite Start</td>
-            <td>Mon May 16 2022 19:27:55 GMT+0600 (Bangladesh Standard Time)</td>
+            <td>Mon May 16 2022 17:37:14 GMT+0600 (Bangladesh Standard Time)</td>
         </tr>
         <tr>
             <td>Suite End</td>
-            <td>Mon May 16 2022 19:28:30 GMT+0600 (Bangladesh Standard Time)</td>
+            <td>Mon May 16 2022 17:37:46 GMT+0600 (Bangladesh Standard Time)</td>
         </tr>
         <tr>
             <td>Suite Duration</td>
-            <td>00:00:35.617</td>
+            <td>00:00:32.616</td>
         </tr>
 
         
@@ -143,12 +143,46 @@
             <td>
                 <table class="table table-test">
                     <tr class="test-header">
-                        <td colspan="2" class="test-pass">
+                        <td colspan="2" class="test-fail">
                             <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
-                            <span class="success">&#10004;</span>
-                            <span class="test-title">should login and create new Insurer membership application</span>
+                            <span class="error">&#10006;</span>
+                            <span class="test-title">should login with valid credentials Create a new user</span>
                         </td>
                     </tr>
+                    
+                        
+                            <tr class="test-row expandable-control">
+                                <td colspan="2">
+                                    <p class="pre assert ">
+                                <span style="margin: 2px; padding: 1px"
+                                      class='glyphicon glyphicon-chevron-down'>&nbsp;</span>
+                                        Assertion: element click intercepted: Element &lt;mat-icon _ngcontent-mfk-c89=&quot;&quot; role=&quot;img&quot; class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot; aria-hidden=&quot;true&quot; data-mat-icon-type=&quot;font&quot;&gt;...&lt;/mat-icon&gt; is not clickable at point (1504, 128). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=101.0.4951.67)
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                                <tr class="test-row">
+                                    <td colspan="2">
+                                        <pre class='pre stack panel'>element click intercepted: element click intercepted: Element &lt;mat-icon _ngcontent-mfk-c89=&quot;&quot; role=&quot;img&quot; class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot; aria-hidden=&quot;true&quot; data-mat-icon-type=&quot;font&quot;&gt;...&lt;/mat-icon&gt; is not clickable at point (1504, 128). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=101.0.4951.67)
+    at getErrorFromResponseBody (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\webdriver\build\utils.js:197:12)
+    at NodeJSRequest._request (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\webdriver\build\request\index.js:158:60)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Element.wrapCommandFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\@wdio\utils\build\shim.js:137:29)
+    at async Element.wrapCommandFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\@wdio\utils\build\shim.js:137:29)
+    at async Element.elementErrorHandlerCallbackFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\@wdio\utils\build\shim.js:137:29)
+    at async Element.wrapCommandFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\@wdio\utils\build\shim.js:137:29)
+    at async Element.elementErrorHandlerCallbackFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (F:\Automation\WdIO_EcoHub_Marketplace\node_modules\@wdio\utils\build\shim.js:137:29)</pre>
+                                    </td>
+                                </tr>
+                            
+                        
+                        
+                        
+                        
                     
                 </table>
             </td>
