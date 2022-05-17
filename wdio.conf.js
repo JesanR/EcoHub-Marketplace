@@ -22,8 +22,8 @@ exports.config = {
     //
     specs: [
         './test/specs/**/*.js',
-        './test/specs/createNewuserIGAdmin.js',
-        './test/specs/createInsurerApplication.js'
+        //'./test/specs/createNewuserIGAdmin.js',
+        //'./test/specs/createInsurerApplication.js'
     ],
     // define specific suites
     suites: {
